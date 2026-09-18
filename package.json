@@ -1,0 +1,24 @@
+{
+  "name": "reveal-qa-takehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moutazusa/reveal-qa-takehome.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/moutazusa/reveal-qa-takehome/issues"
+  },
+  "homepage": "https://github.com/moutazusa/reveal-qa-takehome#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}
