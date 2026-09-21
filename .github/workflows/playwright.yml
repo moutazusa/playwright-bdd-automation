@@ -6,8 +6,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-      
+    runs-on: ubuntu-latest 
       steps:
        - name: Checkout repository
          uses: actions/checkout@v4
@@ -22,7 +21,6 @@ jobs:
 
        - name: Install Playwright browsers
          run: npx playwright install --with-deps
-
 
        - name: Run Playwright tests
          run: npx playwright test
